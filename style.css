@@ -1,0 +1,165 @@
+*, ::before, ::after
+{
+    box-sizing: border-box;
+}
+
+:root
+{
+    --primary-blue: hsl(223, 87%, 63%);
+    --secondary-pale-blue: hsl(223, 77%, 71%);
+    --secondary-light-red: hsl(354, 100%, 66%);
+    --neutral-gray: hsl(0, 0%, 59%);
+    --neutral-very-dark-blue: hsl(209, 33%, 12%);
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.container
+{
+   padding: 5rem 2rem 3rem;
+   text-align: center;
+}
+
+.logo
+{
+   width: 3rem;
+   margin: 0rem auto;
+}
+
+.title
+{
+   font-size: 1.2rem;
+   font-weight: 300;
+   margin-top: 2rem;
+}
+
+.title > span
+{
+    font-weight: 700;
+}
+
+.lead
+{
+    font-size: .7rem;
+    font-weight: 300;
+}
+
+#email
+{
+    border: 1px solid var(--primary-blue);
+    border-radius: 20rem;
+    padding: .7rem 3rem;
+    margin-top: 1rem;
+    outline: none;
+}
+
+.invalid_email
+{
+    font-size: .5rem;
+    font-style: italic;
+    color: var(--secondary-light-red);
+    padding-bottom: 0;
+}
+
+.email_button
+{
+    background-color: var(--primary-blue);
+    color: white;
+    font-weight: 600;
+    border: 1px solid var(--primary-blue);
+    border-radius: 20rem;
+    padding: .7rem 6.5rem;
+    margin: .5rem;
+    box-shadow: 0 5px 5px var(--secondary-pale-blue);
+}
+
+.email_button:hover
+{
+    cursor: pointer;
+}
+
+.email_button:active
+{
+    cursor: pointer;
+    background-color: var(--secondary-pale-blue);
+    border: var(--secondary-pale-blue);
+}
+
+.dashboard
+{
+    width: 19rem;
+    margin-top: 4rem;
+    margin-bottom: 7rem;
+}
+
+.media_flexbox
+{
+    display: flex;
+    justify-content: center;
+}
+
+.media
+{
+    width: 1.2rem;
+    height: 1.2rem;
+    padding: 0rem;
+    margin: 0 1rem 2rem;
+    border-radius: 100rem;
+    transition: .3s;
+}
+
+
+.media:hover
+    {
+        cursor: pointer;
+    }
+
+.copy
+{
+    font-size: .6rem;
+    font-weight: 600;
+    color: var(--neutral-gray);
+}
+
+@media (min-width: 850px)
+{
+     .container
+     {
+        padding: 3rem 0;
+     }
+
+     .title
+     {
+        font-size: 1.5rem;
+     }
+
+     .lead
+     {
+        font-size: .8rem;
+     }
+
+    .flex-items
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center
+    }  
+
+    .email_button
+    {
+        padding: .7rem 2.5rem;
+        margin-top: 1rem;
+    }
+
+    .dashboard
+    {
+        width: 22em;
+        margin-bottom: 4rem;
+    }
+}

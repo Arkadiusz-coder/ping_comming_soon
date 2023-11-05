@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" 
+      href="https://fonts.googleapis.com">
+<link rel="preconnect" 
+      href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&display=swap" 
+      rel="stylesheet">
+  <link rel="preconnect" 
+        href="https://fonts.googleapis.com">
+<link rel="preconnect" 
+      href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" 
+      rel="stylesheet">
+  
+  <title>Frontend Mentor | Ping coming soon page</title>
+
+</head>
+<body>
+  <div class="container">
+  <picture>
+    <img src="images/logo.svg" alt="" class="logo">
+  </picture>
+  <header>
+    <h1 class="title">We are launching <span>soon!<span></h1>
+    <h2 class="lead">Subscribe and get notified</h2>
+  </header>
+  
+  <div class="flex-items">
+    <form for="email">
+      <input type="email" name="email" class="email" id="email" placeholder="Your email address...">
+      <div class="invalid_email" id="validation"></div>
+    </form>
+    <button class="email_button">Notify Me</button>
+  </div>
+
+  <picture>
+    <img src="images/illustration-dashboard.png" alt="" class="dashboard">
+  </picture>
+  
+  <div class="media_flexbox">
+    <div class="media"><img src="images/facebook.svg" alt=""></div>
+    <div class="media"><img src="images/x-twitter.svg" alt=""></div>
+    <div class="media"><img src="images/instagram.svg" alt=""></div>
+    </div>  
+
+  <footer>
+    <p class="copy">&copy; Copyright Ping. All rights reserved.</p>
+  </footer>
+</div>
+<script src="script.js"></script>
+</body>
+
+</html>
