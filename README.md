@@ -19,7 +19,7 @@ Users should be able to:
 
 ### links
 solution url: https://github.com/Arkadiusz-coder/ping_comming_soon
-live site url: 
+live site url: https://arkadiusz-coder.github.io/ping_comming_soon/
 
 ## my process
 
